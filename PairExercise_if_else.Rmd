@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## if-else
 
-Pair programming exercise for DSE5002,  on if and else operations
+### Pair programming exercise for DSE5002,  on if and else operations
 
 when the test condition in an if statement is met, then the following
 code block is run.   Otherwise, not
@@ -42,7 +42,7 @@ cat("Y is ",y ,"\n")
 cat("Z is ",z)
 ```
 
-Action Required:  alter my code so that Y and Z are not altered
+## *Action Required:  alter my code so that Y and Z are not altered*
 
 #If-else
 
@@ -72,7 +72,7 @@ cat("Y is ",y ,"\n")
 cat("Z is ",z)
 
 ```
-Action Required:
+## *Action Required:*
 
 Verify that this code works for a couple of different values of x
 
@@ -101,9 +101,9 @@ if(x<0)
 
 Alter this code and verify that it works
 
-#Compound test conditions
+# Compound test conditions
 
-Using AND (&) and OR(|)
+### Using AND (&) and OR(|)
 
 to decide what to do handle this decision
 
@@ -130,7 +130,7 @@ scones_in_stock=TRUE
 
 ```
 
-#If-else assignment statements
+## If-else assignment statements
 
 R has the ability to carry out assignments in an if-else operator
 
@@ -145,7 +145,7 @@ y=ifelse(x<10,0.125*x,0.25*x)
 y
 ```
 
-Action: Verify that this behaves as expected when x is changed
+## *Action: Verify that this behaves as expected when x is changed*
 
 This is not a structure I use much, it does save some time.   I tend to use
 the less sophisticated approach shown above.

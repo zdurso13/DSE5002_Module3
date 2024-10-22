@@ -2,18 +2,20 @@
 title: "PairProgamming_Loops"
 author: "HDS"
 date: "2024-06-24"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Loops
+# Loops
 
 pair programming exercise for DSE5002, Module 3
 
-#For Loops
+## For Loops
 
 These work when we want to repeat an operation for a known
 number of trials, or for each item in a list or array
@@ -79,7 +81,7 @@ curly brackets line up.
 
 This greatly improves readability- be sure to do this.
 
-#Nested for loops
+## Nested for loops
 
 when one for loop is within another
 
@@ -184,7 +186,7 @@ print(loop_work)
 # the paste function recycles the contents of names(h)[j] or keys(h)[j]
 
 ```
-#Hashing
+# Hashing
 
 What is really going on here?
 
@@ -213,7 +215,7 @@ read than a nested loop once you get used to the idea of a hash.
 Python- has a data structure called a Dictionary that used this key-value
 system and hashed data look-up just as the hash() does in R
 
-#Timing
+# Timing
 
 Let's check the timing on this using tic-toc
 
@@ -315,7 +317,7 @@ But this is a simple example....
 
 You can nest a for loop in a while, or a while in a for...
 
-#hash table example
+# hash table example
 
 Counting the number of times each word appears in a document or list
 
